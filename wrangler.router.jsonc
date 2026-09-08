@@ -1,0 +1,6 @@
+{
+  "name": "deskmux-domain",
+  "main": "scripts/edge-router.js",
+  "compatibility_date": "2026-09-08",
+  "routes": [{"pattern": "deskmux.dionlabs.ai", "custom_domain": true}]
+}
