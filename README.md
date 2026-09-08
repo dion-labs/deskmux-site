@@ -15,3 +15,8 @@ Only router changes need `wrangler deploy --config wrangler.router.jsonc`.
 The interactive desk is an illustrative preview. It never accesses devices or
 connects to DeskMux. Update compatibility claims and release download links
 alongside application releases. Mux is original artwork created for Dion Labs.
+
+The 1200×630 Open Graph / X card is a typeset HTML composition using the
+existing Mux artwork. Edit `scripts/social-card.html`, then run
+`node scripts/build-social-card.mjs` with Chrome installed to regenerate
+`public/social-preview-v2.png`. Keep both image metadata sets in sync.
