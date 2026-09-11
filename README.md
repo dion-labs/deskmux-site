@@ -20,3 +20,9 @@ The 1200×630 Open Graph / X card is a typeset HTML composition using the
 existing Mux artwork. Edit `scripts/social-card.html`, then run
 `node scripts/build-social-card.mjs` with Chrome installed to regenerate
 `public/social-preview-v2.png`. Keep both image metadata sets in sync.
+
+## Missing pages
+
+`public/404.html` is copied to the output root during the build. Cloudflare
+Pages uses it to return HTTP 404 for unknown paths instead of falling back to
+the homepage. Keep this file when changing the build or hosting configuration.
